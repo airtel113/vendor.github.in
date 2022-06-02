@@ -1,0 +1,175 @@
+.nav-design {
+    background-color: hsl(265, 71%, 57%);
+
+}
+
+.ul-design {
+    font-size: 15px;
+}
+
+li:hover {
+    background-color: rgba(90, 255, 0, 0.81);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 100%;
+}
+
+.nav-btn {
+    color: white;
+    border: none;
+    background-color: #45069d;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 41px;
+    margin-left: 2px;
+    width: 100px;
+}
+
+.nav-btn:hover {
+    background-color: #5aff00cf;
+    font-weight: 600;
+    color: blue;
+}
+#intro-head{
+    position: relative;
+}
+.vendor-img{
+    width: 500px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logo{
+     font-size: 30px;
+     position: relative;
+     left: 110px;
+    }
+    .nav-btn{
+
+    }
+    
+    #intro-head {
+        text-align: center;
+        color: rgb(31, 31, 31);
+        margin-top: 15px;
+        font-size: 35px;
+      
+    }
+
+    #intro-para {
+        font-size: 20px;
+        color: rgb(83, 83, 83);
+       padding-right:50px ;
+       padding-top: 20px;
+       padding-bottom: 10px;
+    }
+
+    .find-btn {
+        border: none;
+        background-color: #5aff00cf;
+        color: black;
+        height: 60px;
+        font-weight: 500;
+        font-size: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 200px;
+    }
+
+    .signup-btn {
+        border: none;
+        background-color: #45069d;
+        color: white;
+        margin-left: 75px;
+        height: 60px;
+        width: 200px;
+        font-size: 18px;
+        font-weight: 500;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .vendor-img{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) and (min-width:600px) {
+    .logo{
+     font-size: 30px;
+     position: relative;
+   left: 0;
+    }
+    .nav-btn{
+
+    }
+    .into_container{
+        width: 100%;
+    }
+    
+    #intro-head {
+        text-align: center;
+      padding-left: 190px;
+        color: rgb(31, 31, 31);
+        margin-top: 15px;
+        font-size: 45px;
+        
+    }
+
+    #intro-para {
+        font-size: 30px;
+        color: rgb(83, 83, 83);
+       padding-right:50px ;
+       padding-top: 20px;
+       padding-bottom: 10px;
+    }
+
+    .find-btn {
+        border: none;
+        background-color: #5aff00cf;
+        color: black;
+        height: 60px;
+        font-weight: 500;
+        font-size: 22px;
+        margin-left: 102px;
+        border-top-left-radius: 31px;
+        border-top-right-radius: 31px;
+        border-bottom-right-radius: 31px;
+        width: 200px;
+    }
+
+    .signup-btn {
+        border: none;
+        background-color: #45069d;
+        color: white;
+        margin-left: 80px;
+        height: 60px;
+        width: 200px;
+        font-size: 18px;
+        font-weight: 500;
+        border-top-left-radius: 31px;
+        border-top-right-radius: 31px;
+        border-bottom-left-radius: 31px;
+    }
+    .vendor-img{
+        width: 800px;
+        height: auto;
+        padding-top: 20px;
+        height: 900px;
+   padding-right: 80px;
+    }
+}
